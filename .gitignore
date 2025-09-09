@@ -1,0 +1,35 @@
+# Quartus build artifacts
+db/
+incremental_db/
+output_files/
+*.sof
+*.pof
+*.jic
+*.smsg
+*.qar
+*.qdf
+*.qdz
+*.rpt
+*.summary
+
+# ModelSim/Questa
+work/
+transcript
+vsim.wlf
+*.wlf
+*.log
+*.jou
+*.pb
+
+# Temporary / cache files
+*.bak
+*.tmp
+*.cache
+*~
+.DS_Store
+Thumbs.db
+
+# Ignore project archives or backups
+*.zip
+*.rar
+*.7z
